@@ -18,7 +18,7 @@ For Q3, assuming user is not allowed to give 0 stars, these are the threshold:
 How to run locally 
 To install python & pandas 
 1) pip install -r requirements.txt  
-2) Navigate to the download folder 
+2) Navigate to the download folder in the terminal 
 3) Finally, run the program with the command below: 
 - python Q1.py
 - python Q2.py
