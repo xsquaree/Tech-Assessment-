@@ -8,6 +8,7 @@ Overview:
 
 
 Assumptions: 
+
 For Q3, assuming user is not allowed to give 0 stars, these are the threshold: 
 1-3 : Poor 
 3-3.5 : Average
