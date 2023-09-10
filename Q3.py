@@ -5,7 +5,6 @@ import csv
 
 df = pd.read_csv('restaurants.csv')
 
-#Assum
 def map_text_rating(rating):
     if 1 <= rating < 3:
         return 'Poor'
@@ -24,10 +23,11 @@ df['Text Rating'] = df['User Aggregate Rating'].apply(map_text_rating)
 
 aggregates = df['Text Rating'].value_counts()
 print("Threshold for ratings:") 
-print("4-5: Excellent")
-print("3-4: Very Good")
-print("2-3: Good")
-print("1-2: Average")
+print("4.5-5: Excellent")
+print("4-4.5: Very Good")
+print("3.5-4: Good")
+print("3-3.5: Average")
+print("1-3: Poor")
 
 
 print("Aggregates for the ratings: ")
