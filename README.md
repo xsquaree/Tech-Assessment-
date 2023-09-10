@@ -9,12 +9,12 @@ Overview:
 
 Assumptions: 
 
-For Q3, assuming user is not allowed to give 0 stars, these are the threshold: 
-1-3 : Poor 
-3-3.5 : Average
-3.5-4: Good 
-4-4.5 : Very Good 
-4.5-5 : Excellent
+- For Q3, assuming user is not allowed to give 0 stars, these are the threshold: 
+- 1-3 : Poor 
+- 3-3.5 : Average
+- 3.5-4: Good 
+- 4-4.5 : Very Good 
+- 4.5-5 : Excellent
 
 How to run locally 
 To install python & pandas 
@@ -24,3 +24,6 @@ To install python & pandas
 - python Q1.py
 - python Q2.py
 - python Q3.py  
+
+
+
