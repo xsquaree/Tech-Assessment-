@@ -6,7 +6,7 @@ Overview:
 2) Q2.py - Extract the list of restaurants that have past event in the month of April 2019 and store the data as restaurant_events.csv.
 3) Q3.py - Return the aggregates for the ratings and also the table with text rating
 4) app.py - runs a web displaying table with text rating (For Q3)
-
+5) Cloud Service Summary.md - Write up summary of how I would design/deploy this using cloud services 
 
 Assumptions: 
 
@@ -22,7 +22,7 @@ Assumptions:
 - For Q3, I used restaurant.csv file as it is extracted from dataset (restaurant_data.json) in Q1
 - The URL hosting is for Q3 (http://xiaoxiao2000.pythonanywhere.com/)
 
-How to run locally 
+How to run source code locally 
 1) pip install -r requirements.txt  (If you need to install python, pandas and flask)
 2) Navigate to the downloaded folder in the terminal 
 3) Finally, run the program with the command below: 
